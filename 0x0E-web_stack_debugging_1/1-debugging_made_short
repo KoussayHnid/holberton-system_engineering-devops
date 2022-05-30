@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#script to link sites
+ln -sf /etc/nginx/sites-available/default /ettc/nginx/sites-enabled/default
+sudo service nginx sttart
+rm /run/nginx.pid
